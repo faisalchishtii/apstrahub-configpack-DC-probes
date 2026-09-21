@@ -7,7 +7,7 @@ resource "apstra_raw_json" "dc-optical-transceiver-probe" {
   url     = format("/api/blueprints/%s/probes", var.blueprint_id)
   payload = <<-EOT
   {
-    "label": "Optical Transceivers",
+    "label": "DCA Optical Transceivers",
     "description": "Built-in telemetry for optical interfaces is analysed in this probe.",
     "processors": [
       {
